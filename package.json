@@ -1,0 +1,26 @@
+{
+  "name": "doctoroncall",
+  "version": "1.0.0",
+  "description": "doctoroncall",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js -e js,hbs"
+  },
+  "author": "Vaibhav Saini",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fontawesome": "^5.6.3",
+    "hbs": "^4.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.19",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7",
+    "validator": "^13.5.2"
+  }
+}
